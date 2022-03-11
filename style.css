@@ -14,13 +14,7 @@ body{
 header{
     width: 1348px;
     height: 656px;
-    animation: head 2s infinite linear;
     background: url('https://images.wallpaperscraft.com/image/single/living_room_furniture_eg_blue_tone_wallpaper_80113_300x188.jpg') no-repeat center/cover;
-}
-@media only sreen {
-    nav{
-        width: 480px;
-    }
 }
 nav{
     width: 1340px;
