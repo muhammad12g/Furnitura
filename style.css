@@ -9,22 +9,7 @@
 }
 body{
      height: 6000px;
-     animation: body 2s linear .5s infinite;
-}
-@keyframes body {
-    0%{}
-    25%{
-        background: crimson;
-    }
-    50%{
-        background: purple;
-    }
-    75%{
-        background: pink;
-    }
-    100%{
-        background-color: blueviolet;
-    }
+     background: dodgerblue;
 }
 header{
     width: 1348px;
@@ -139,17 +124,9 @@ section{
     transition: .5s;
     border-radius: 20px;
     margin-left: 450px;
-    background: #222;
+    background: dodgerblue;
     color: #ddd;
-    animation: img 2s infinite .5s linear;
-
-}
-.ota_img:hover{
-    background: #000;
-    color: #dfdfdf;
-    border-radius: 25px;
-    outline: none;
-
+    box-shadow: 0 0 10px #000;
 }
 .ota_img > img{
     width: 450px;
@@ -177,13 +154,8 @@ section{
     margin-top: -820px;
     background: dodgerblue;
     color: #ddd;
+    box-shadow: 0 0 10px #000;
     
-}
-.ota_image:hover{
-    background: #000;
-    color: #dfdfdf;
-    border-radius: 25px;
-    outline: none;
 }
 .ota_image > img{
     width: 450px;
