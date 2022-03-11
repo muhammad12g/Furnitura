@@ -26,7 +26,7 @@ nav{
     margin-left: 20px;
     font-family: sans-serif;
     font-size: 45px;
-    color: #fff;
+    color: rgb(87, 87, 87);
     margin-top: -20px;
     animation: logo 1.2s forwards .5s ease-in-out;
     opacity: 0;
