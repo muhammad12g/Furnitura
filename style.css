@@ -11,6 +11,15 @@ body{
      height: 6000px;
      background: dodgerblue;
 }
+@media only screen and (min-width:100px){
+    body{
+        transform: scale(.2);
+        font-size: 22px;
+    }
+    .input{
+        width: 50px;
+    }
+}
 header{
     width: 1348px;
     height: 656px;
